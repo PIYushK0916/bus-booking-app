@@ -9,7 +9,8 @@ import RouteDetails from './components/RouteDetails';
 
 const App = () => {
   return (
-    <Router>
+    // Add basename for correct routing on GitHub Pages
+    <Router basename="/bus-booking-app">
       <div className="bg-black flex flex-col justify-between h-screen text-white">
         <Navbar />
         <Routes>
